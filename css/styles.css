@@ -1,0 +1,46 @@
+body {
+  padding-top: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  background-color: white;
+}
+
+.measurments-table {
+  margin-top: -20vh;
+  font-size: 1.2em !important;
+}
+
+.main-controls {
+  width: 60%;
+}
+
+table {
+    width: 90%;
+}
+
+#wrapper {
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h2 {
+  border-top: 1px solid black;
+  padding-top: 1em;
+}
+
+select, 
+button, 
+input, 
+label {
+  font-size: 2em;
+  width: 100%;
+}
+
+button {
+  margin-top: 1em;
+}
+  

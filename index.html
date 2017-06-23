@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>USb Stick</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="fonts/fonts.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <!-- vendor -->
+    <link rel="stylesheet" href="vendor/mdl/material.min.css">
+
+    <!-- nexpaq libs -->
+    <script type="text/javascript" src="js/NexpaqHeader.js"></script>
+
+    <!-- partials -->
+
+    <!-- screens -->
+
+    <!-- tools-->
+
+    <!-- core -->
+    <script type="text/javascript" src="vendor/mdl/material.min.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+  <body>
+    <table class="measurments-table mdl-data-table mdl-js-data-table mdl-shadow--2dp">
+      <thead>
+        <tr>
+          <th class="mdl-data-table__cell--non-numeric">Icon</th>
+          <th class="mdl-data-table__cell--non-numeric">Title</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="mdl-data-table__cell--non-numeric"><i class="material-icons">usb</i></td>
+          <td class="mdl-data-table__cell--non-numeric">USB Stick</td>
+          <td id="usbStatus">n/a</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="main-controls">
+    <br>
+      <button class="mdl-button mdl-js-button mdl-button--raised" id="checkStatus">Check status</button><br><br>
+      <button class="mdl-button mdl-js-button mdl-button--raised" id="connect">Connect</button><br><br>
+      <button class="mdl-button mdl-js-button mdl-button--raised" id="disconnect">Disconnect</button>
+    </div>
+
+  </body>
+</html>
